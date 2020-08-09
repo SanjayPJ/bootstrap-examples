@@ -27,98 +27,185 @@
 	</head>
 	<body>
 		<div class="container">
+			<!-- flex container -->
 			<h3 class="heading">Flex container</h3>
+
 			<div class="d-flex p-2 bd-highlight">I'm a flex container</div>
-			<h3 class="heading">Inline flex container</h3>
+
 			<!-- inline flex -->
+			<h3 class="heading">Inline flex container</h3>
+
 			<div class="d-inline-flex p-2 bd-highlight">
 				I'm an inline flex container
 			</div>
+
+			<!-- Responsive variations are also available -->
+
+			<!-- 
+				.flex-row to set horizontal direction (the browser default).
+				.flex-column to set vertical direction.
+				.flex-row/column-reverse to set the direction from the opposite side.
+			-->
+
+			<!-- Flex row (deafult) -->
 			<h3 class="heading">Flex row</h3>
+
 			<div class="d-flex flex-row bd-highlight">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- Flex row reverse -->
 			<h3 class="heading">Flex row reverse</h3>
+
 			<div class="d-flex flex-row-reverse bd-highlight">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- Flex column -->
 			<h3 class="heading">Flex column</h3>
+
 			<div class="d-flex flex-column bd-highlight">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- Flex column reverse -->
 			<h3 class="heading">Flex column reverse</h3>
+
 			<div class="d-flex flex-column-reverse bd-highlight">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- Justify content -->
+
+			<!-- 
+				change alignment of flex items on the main axis (the x-axis to start
+				, y-axis if flex-direction: column).
+			-->
+
 			<h3 class="heading">Justify content</h3>
+
+			<!-- start (default) -->
 			<div class="d-flex bd-highlight justify-content-start">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- center -->
 			<div class="d-flex bd-highlight mt-3 justify-content-center">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- end -->
 			<div class="d-flex bd-highlight mt-3 justify-content-end">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- around -->
 			<div class="d-flex bd-highlight mt-3 justify-content-around">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- between -->
 			<div class="d-flex bd-highlight mt-3 justify-content-between">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- align items -->
+
+			<!--  
+				change alignemnt of flex items on the cross axis (the y-axis to start, 
+				x-axis if flex-direction: column).
+			-->
+
 			<h3 class="heading">Align items</h3>
+
+			<!-- start (default) -->
 			<div class="d-flex bd-highlight align-items-start h-200">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- center -->
 			<div class="d-flex bd-highlight align-items-center mt-3 h-200">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- end -->
 			<div class="d-flex bd-highlight align-items-end mt-3 h-200">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- baseline -->
 			<div class="d-flex bd-highlight align-items-baseline mt-3 h-200">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- stretch -->
 			<div class="d-flex bd-highlight align-items-stretch mt-3 h-200">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- align self -->
+
+			<!--  
+				Items to individually change their alignement on the cross axis (the 
+				y-axis to start, x-axis if flex-direction: column).
+			-->
+
 			<h3 class="heading">Align self</h3>
+
 			<div class="d-flex bd-highlight h-200">
+				<!-- start (default) -->
 				<div class="p-2 bd-highlight align-self-start">Flex item 1</div>
+
+				<!-- center -->
 				<div class="p-2 bd-highlight align-self-center">Flex item 2</div>
+
+				<!-- end -->
 				<div class="p-2 bd-highlight align-self-end">Flex item 3</div>
+
+				<!-- baseline -->
 				<div class="p-2 bd-highlight align-self-baseline">Flex item 3</div>
+
+				<!-- stretch -->
 				<div class="p-2 bd-highlight align-self-stretch">Flex item 3</div>
 			</div>
+
+			<!-- flex-fill -->
+
+			<!--  
+				A series of sibling elements to force them into widths equal to thier content 
+				while taking up all the horizontal space.
+			-->
+
 			<h3 class="heading">Fill</h3>
+
 			<div class="d-flex bd-highlight">
 				<div class="p-2 bd-highlight flex-fill">Flex item 1</div>
 				<div class="p-2 bd-highlight" style="flex-basis: 200px;">
@@ -128,43 +215,89 @@
 					Flex item 3
 				</div>
 			</div>
+
+			<!--  Flex grow and flex shrink -->
+
+			<!--  
+				.flex-grow is the ability of a flex items to grow and fill available
+				space. In this case items use all the available space it can, while
+				allowing the remaining items their necessary space.
+
+				.flex-shrink is the ability of a flex item to shrink if necessary
+			-->
+
 			<h3 class="heading">Flex grow and shrink</h3>
+
+			<!-- flex grow: 0 -->
 			<div class="d-flex bd-highlight">
 				<div class="p-2 bd-highlight flex-grow-1">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 1</div>
 			</div>
+
+			<!-- flex shrink: 1 -->
 			<div class="d-flex bd-highlight mt-3 h-200">
 				<div class="p-2 bd-highlight flex-shrink-1">Flex item</div>
 				<div class="p-2 bd-highlight w-100">Flex item 1</div>
 			</div>
+
+			<!-- Auto margins -->
+
+			<!--  
+				.mr-auto pushing items to the right
+				.ml-auto pushing items to the left
+				.mx-auto aligning items to the center of the flex box
+				.mb-auto pushing items to the top
+				.mt-auto pushing items to the bottom
+			-->
+
 			<h3 class="heading">Auto margins</h3>
+
+			<!-- default with no auto margins -->
 			<div class="d-flex bd-highlight">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- pushing items to the left -->
 			<div class="d-flex bd-highlight mt-3">
 				<div class="p-2 bd-highlight mr-auto">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- pushing items to the right -->
 			<div class="d-flex bd-highlight mt-3">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight ml-auto">Flex item 3</div>
 			</div>
+
+			<!-- pushing items to the bottom -->
 			<div class="d-flex flex-column bd-highlight mt-5 h-200">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight mt-auto">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- pushing items to the top -->
 			<div class="d-flex flex-column bd-highlight mt-3 h-200">
 				<div class="p-2 bd-highlight mb-auto">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
 				<div class="p-2 bd-highlight">Flex item 3</div>
 			</div>
+
+			<!-- flex wrap -->
+
+			<!--  
+				wrap flex items in a flex container
+				.no-wrap (browser default)
+			-->
+
 			<h3 class="heading">Wrap</h3>
+
+			<!-- no-wrap (default) -->
 			<div class="d-flex bd-highlight flex-no-wrap h-200">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
@@ -178,6 +311,8 @@
 				<div class="p-2 bd-highlight">Flex item 11</div>
 				<div class="p-2 bd-highlight">Flex item 12</div>
 			</div>
+
+			<!-- wrap -->
 			<div class="d-flex flex-wrap bd-highlight mt-3 h-200">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
@@ -191,6 +326,8 @@
 				<div class="p-2 bd-highlight">Flex item 11</div>
 				<div class="p-2 bd-highlight">Flex item 12</div>
 			</div>
+
+			<!-- wrap reverse -->
 			<div class="d-flex flex-wrap-reverse bd-highlight mt-3 h-200">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
@@ -204,7 +341,16 @@
 				<div class="p-2 bd-highlight">Flex item 11</div>
 				<div class="p-2 bd-highlight">Flex item 12</div>
 			</div>
+
+			<!-- Order -->
+
+			<!--  
+				Change visual order of flex items
+				.order0-12 available
+			-->
+
 			<h3 class="heading">Order</h3>
+
 			<div class="d-flex bd-highlight">
 				<div class="p-2 bd-highlight order-2">Flex item 1</div>
 				<div class="p-2 bd-highlight order-0">Flex item 2</div>
@@ -212,7 +358,15 @@
 				<div class="p-2 bd-highlight order-3">Flex item 4</div>
 				<div class="p-2 bd-highlight order-4">Flex item 5</div>
 			</div>
+
+			<!-- align-content -->
+
+			<!--  
+				Align flex item together on cross axis
+			-->
+
 			<h3 class="heading">Align content</h3>
+			<!-- start (default) -->
 			<div class="d-flex bd-highlight flex-wrap h-200 align-content-start">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
@@ -226,6 +380,8 @@
 				<div class="p-2 bd-highlight">Flex item 11</div>
 				<div class="p-2 bd-highlight">Flex item 12</div>
 			</div>
+
+			<!-- center -->
 			<div
 				class="d-flex bd-highlight flex-wrap h-200 align-content-center mt-3"
 			>
@@ -241,6 +397,8 @@
 				<div class="p-2 bd-highlight">Flex item 11</div>
 				<div class="p-2 bd-highlight">Flex item 12</div>
 			</div>
+
+			<!-- end -->
 			<div class="d-flex bd-highlight flex-wrap h-200 mt-3 align-content-end">
 				<div class="p-2 bd-highlight">Flex item 1</div>
 				<div class="p-2 bd-highlight">Flex item 2</div>
@@ -254,6 +412,8 @@
 				<div class="p-2 bd-highlight">Flex item 11</div>
 				<div class="p-2 bd-highlight">Flex item 12</div>
 			</div>
+
+			<!-- between -->
 			<div
 				class="d-flex bd-highlight flex-wrap h-200 mt-3 align-content-between"
 			>
@@ -269,6 +429,8 @@
 				<div class="p-2 bd-highlight">Flex item 11</div>
 				<div class="p-2 bd-highlight">Flex item 12</div>
 			</div>
+
+			<!-- around -->
 			<div
 				class="d-flex bd-highlight flex-wrap h-200 mt-3 align-content-around"
 			>
@@ -284,6 +446,8 @@
 				<div class="p-2 bd-highlight">Flex item 11</div>
 				<div class="p-2 bd-highlight">Flex item 12</div>
 			</div>
+
+			<!-- stretch -->
 			<div
 				class="d-flex bd-highlight flex-wrap h-200 mt-3 align-content-stretch"
 			>
@@ -300,22 +464,5 @@
 				<div class="p-2 bd-highlight">Flex item 12</div>
 			</div>
 		</div>
-		<!-- Optional JavaScript -->
-		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-		<script
-			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-			integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-			integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-			crossorigin="anonymous"
-		></script>
 	</body>
 </html>
